@@ -23,7 +23,7 @@ yarn run ts-node --files ./scripts/DelegateVotes.ts SepoliaAdressToDelegate
 ```powershell
 yarn run ts-node --files ./scripts/Deployment.ts
 ```
-	do not forget to copy paste the contract address in Query, Delegate and Cast
+* do not forget to copy paste the contract address in Query, Delegate and Cast
 * **scripts/VoteRights.ts** - Granting vote rights to sepolia adress user
 ```powershell
 yarn run ts-node --files ./scripts/VoteRights.ts ContractAdress SepoliaAddress
