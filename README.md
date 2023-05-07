@@ -1,5 +1,9 @@
 # Report week end project week 2
 
+```powershell
+yarn install
+```
+
 ## Scripts:
 
 * **scripts/CastVote.ts** - if sepolia adress user has voting right he will be able to vote
