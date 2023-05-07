@@ -1,12 +1,9 @@
-# Team 4 Encode Solidty Bootcamp Week 2
-
-Repo for Team 4 week 2 work
+# Report week end project week 2
 
 ## Scripts:
 
-* **scripts/Deployment.ts** - Deploy contract with proposals
-* **scripts/GiveVotingRights.ts** - Grant voting rights to voters
-* **scripts/Delegate.ts** - Delegate vote
-* **scripts/CastVote.ts** - Cast vote
-* **scripts/QueryWinner.ts** - Query contract for winning proposal (proposal with most votes)
-* **scripts/LocalDeployAndRun.ts** - Do all of the above locally with local hardhat accounts
+* **scripts/CastVote.ts** - if sepolia adress user has voting right he will be able to vote
+* **scripts/DelegateVote.ts** - Delegate vote to another sepolia adress user
+* **scripts/Deployment.ts** - Deploy contract with an array of proposals
+* **scripts/VoteRights.ts** - Granting vote rights to sepolia adress user
+* **scripts/QueryResult.ts** - showing the proposals with most vote
