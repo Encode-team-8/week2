@@ -1,4 +1,4 @@
-# Report week end project week 2
+# Report Weekend Project -- Week 2
 
 ```powershell
 yarn install
@@ -7,6 +7,8 @@ yarn install
 ```powershell
 yarn hardhat compile
 ```
+
+To complete this assignment you will need at least two seed phrases from two test wallets and these wallets will need Sepolia ETH from Alchemy faucet.
 
 ## Scripts:
 
@@ -30,10 +32,10 @@ yarn run ts-node --files ./scripts/VoteRights.ts SepoliaAddress
 yarn run ts-node --files ./scripts/DelegateVotes.ts SepoliaAdressToDelegate
 ```
 
-- **scripts/CastVote.ts** - if sepolia adress user has voting right he will be able to vote
+- **scripts/CastVote.ts** - if sepolia address user has voting right he will be able to vote
 
 ```powershell
-yarn run ts-node --files ./scripts/CastVote.ts numberOfProposal(start at 0)
+yarn run ts-node --files ./scripts/CastVotes.ts numberOfProposal(start at 0)
 ```
 
 - **scripts/QueryResult.ts** - showing the proposals with most vote
@@ -47,11 +49,19 @@ Report:
 Deploy:
 https://sepolia.etherscan.io/address/0x9B41bc4De53eC3E7ac104015D25e4cA61256D864
 
+### Status: `Success`
+
 Grant Voting Rights:
 https://sepolia.etherscan.io/tx/0x076eb6fbc82a5407cfc23f08c15c1a18e1189118df2a92c60cf1703b27d2583d
+
+### Status: `Success`
 
 Delegate Votes:
 https://sepolia.etherscan.io/tx/0x027dc535735704065cd1576cac1133041cd1bcd446a9223d8ef485485775311d
 
+### Status: `Success`
+
 Vote:
-https://sepolia.etherscan.io/tx/0x9306d36b60e233555ec4b1cd1a61e19366af8921ff15164e00e85eadf4ba09d0
+https://sepolia.etherscan.io/tx/0xfe14c17b0224340fa3fea53ccf9574e1994cd8d73091e58ca521ba18b612026c
+
+### Status: `Success.` -- recently working

@@ -19,7 +19,7 @@ async function main() {
     process.env.INFURA_API_KEY
   );
 
-  const wallet = new ethers.Wallet(process.env.PRIVATE_KEY ?? '', provider);
+  const wallet = new ethers.Wallet(process.env.DELEGATED_KEY ?? '', provider);
   console.log(`Connected to the wallet address ${wallet.address}`);
 
   const signer = wallet.connect(provider);
